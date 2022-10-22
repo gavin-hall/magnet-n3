@@ -1,52 +1,12 @@
 ---
-navigation.title: 'Overview'
-layout: 'default'
-header.title: 'Magnet Co - A world-class web agency in Cincinnati'
-head.description: 'A modern web agency with a human-centric approach. We create high performing websites through modern design, powerful technology and expert SEO.'
+navigation.title: 'Home'
 ---
-
-::hero
-# Websites that resonate with your audience
-We combine classic design principles with modern technology to create websites that resonate with people and help companies achieve their goals.
-::button-link{icon="ph:circle-wavy-warning-duotone"}
-[Learn more about us](/about)
-::
-::
-
-<!-- ::solutions
-#title
-This is an alert
-#default
-This is the default content of my alert!
-:: -->
-
-::solutions
-#title
-Magnet is an independent web agency with a human-centric approach to website design and development.
-#default
-We combine classic design principles with modern technology to create websites that resonate with people and help companies achieve their goals.
-::
-
-::work-short
-#title
-Human-centered website design
-#default
-Combining cognitive science, analytics and UI/UX design principles, we create custom websites, ecommerce platforms and web applications that appeal to the human need for a balance between logic and emotion.
-::
-
-::clients
-#title
-Partners of all sizes
-#default
-Our web agency has had the privilege of working with large and small companies from around the world, spanning education, philanthropy, travel and tourism, retail, entertainment, professional services and the sciences.
-::
-
 
 # Content Wind :icon{name="carbon:sailboat-coastal" color="#818cf8" size="2rem"}
 
 A lightweight Nuxt theme to build a Markdown driven website, based on [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com) and [Iconify](https://iconify.design) :sparkles:
 
-
+[Play online on Stackblitz](https://stackblitz.com/edit/nuxt-content-wind?file=content%2F1.index.md)
 
 ## Features
 
