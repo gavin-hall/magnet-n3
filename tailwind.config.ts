@@ -8,8 +8,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: colors.gray
-      }
+        primary: colors.zinc
+      },
+      typography: theme => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.zinc.900')
+
+            // ...
+          }
+        }
+      })
     }
   }
 }

@@ -11,22 +11,22 @@
 
 <style lang="postcss">
   body {
-    @apply bg-primary-50 dark:bg-primary-900 text-gray-900 dark:text-gray-300;
+    @apply bg-primary-50 text-zinc-900 ;
   }
   .heading-1 {
-    @apply text-2xl lg:text-3xl font-bold;
+    @apply text-3xl lg:text-4xl font-bold;
   }
   .heading-2 {
     @apply text-2xl lg:text-3xl font-bold;
   }
   .heading-3 {
-    @apply text-2xl lg:text-3xl font-bold;
+    @apply text-lg lg:text-xl font-bold;
   }
   .heading-4 {
-    @apply text-2xl lg:text-3xl font-bold;
+    @apply text-base lg:text-lg font-bold;
   }
   .heading-5 {
-    @apply text-2xl lg:text-3xl font-bold;
+    @apply text-base lg:text-lg font-bold;
   }
   .subtitle {
     @apply text-xs lg:text-sm font-medium;

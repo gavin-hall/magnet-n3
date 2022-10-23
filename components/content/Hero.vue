@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-screen-lg mx-auto px-4 lg:px-8 py-12 lg:py-24">
+  <div class="max-w-screen-xl mx-auto px-4 lg:px-8 py-12 lg:py-24">
     <div class="lg:flex lg:space-x-24">
-      <div class="lg:w-1/2 prose prose-gray dark:prose-invert">
+      <div class="lg:w-1/2 prose">
         <ContentSlot :use="$slots.default" />
       </div>
       <div class="lg:w-1/2">

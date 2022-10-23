@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <header class="max-w-screen-lg mx-auto px-4 lg:px-8 py-4 lg:py-8">
+    <header class="max-w-screen-xl mx-auto px-4 lg:px-8 py-4 lg:py-8">
       header
     </header>
   </div>
@@ -8,7 +8,7 @@
     <slot />
   </main>
 
-  <footer class="max-w-screen-lg mx-auto px-4 lg:px-8 py-4 lg:py-8">
+  <footer class="max-w-screen-xl mx-auto px-4 lg:px-8 py-4 lg:py-8">
     footer
   </footer>
 </template>

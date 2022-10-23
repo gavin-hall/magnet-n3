@@ -1,8 +1,8 @@
 <template>
-  <section class="px-4 lg:px-8 py-12 lg:py-24 bg-gray-900 text-gray-50">
-    <div class="max-w-screen-lg mx-auto">
+  <section class="px-4 lg:px-8 py-12 lg:py-24 bg-zinc-900 text-zinc-50">
+    <div class="max-w-screen-xl mx-auto">
       <div class="lg:flex lg:space-x-24">
-        <div class="lg:w-1/2 prose prose-invert dark:prose-gray">
+        <div class="lg:w-1/2 prose prose-invert">
           <h2 class="subheading">
             Case Studies
           </h2>
@@ -11,7 +11,7 @@
           </h3>
         <!-- Human-centered website design -->
         </div>
-        <div class="lg:w-1/2 prose prose-invert dark:prose-gray">
+        <div class="lg:w-1/2 prose prose-invert">
           <ContentSlot :use="$slots.default" />
         <!-- Combining cognitive science, analytics and UI/UX design principles, we create custom websites, ecommerce platforms and web applications that appeal to the human need for a balance between logic and emotion. -->
         </div>

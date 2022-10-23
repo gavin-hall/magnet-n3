@@ -1,6 +1,6 @@
 <template>
   <section class="px-4 lg:px-8 py-12 lg:py-24">
-    <div class="max-w-screen-lg mx-auto">
+    <div class="max-w-screen-xl mx-auto">
       <div class="lg:flex lg:space-x-24">
         <div class="lg:w-1/2 ">
           <h2 class="subheading">
@@ -11,7 +11,7 @@
           </h3>
         <!-- Human-centered website design -->
         </div>
-        <div class="lg:w-1/2 prose prose-gray dark:prose-invert">
+        <div class="lg:w-1/2 prose">
           <ContentSlot :use="$slots.default" />
         <!-- Combining cognitive science, analytics and UI/UX design principles, we create custom websites, ecommerce platforms and web applications that appeal to the human need for a balance between logic and emotion. -->
         </div>
