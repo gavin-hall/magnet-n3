@@ -1,13 +1,10 @@
 <template>
-  <div class="max-w-screen-xl mx-auto px-4 lg:px-8 py-12 lg:py-24">
+  <div class="max-w-screen-xl mx-auto px-4 lg:px-8 py-16 lg:py-28 xl:py-32">
     <div class="lg:flex lg:space-x-24">
       <div class="lg:w-1/2 prose">
         <h3 class="heading-2">
           <ContentSlot :use="$slots.title" unwrap="p" />
         </h3>
-        <!-- Magnet is an independent web agency with a human-centric approach to website design and development. -->
-      </div>
-      <div class="lg:w-1/2 prose">
         <ContentSlot :use="$slots.default" />
         <!-- Magnet is an independent web agency with a human-centric approach to website design and development. -->
       </div>
