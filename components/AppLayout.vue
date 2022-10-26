@@ -11,7 +11,7 @@
 
 <style lang="postcss">
   body {
-    @apply bg-primary-50 text-zinc-900 ;
+    @apply bg-zinc-50 text-zinc-900 ;
   }
   .heading-1 {
     @apply text-3xl lg:text-4xl font-bold;
